@@ -8,6 +8,7 @@ django = "*"
 djangorestframework = "*"
 djangorestframework-simplejwt = "*"
 drfpasswordless = "*"
+psycopg2 = "*"
 
 [dev-packages]
 
