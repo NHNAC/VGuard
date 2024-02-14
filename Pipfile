@@ -9,6 +9,7 @@ djangorestframework = "*"
 djangorestframework-simplejwt = "*"
 drfpasswordless = "*"
 psycopg2 = "*"
+pillow = "*"
 
 [dev-packages]
 
