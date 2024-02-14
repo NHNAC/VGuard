@@ -84,7 +84,7 @@ DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.postgresql',
        'NAME': 'vguard',
-       'USER': 'psqladmin',
+       'USER': 'postgres',
        'PASSWORD': 'psqlpassword',
        'HOST': 'localhost',
        'PORT': '5432',
