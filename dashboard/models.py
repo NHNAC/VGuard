@@ -77,6 +77,7 @@ class AgeGender(models.Model):
     female_adults = models.IntegerField(default=0)
     male_old = models.IntegerField(default=0)
     female_old = models.IntegerField(default=0)
+    camera = models.ForeignKey(Camera, on_delete=models.PROTECT, related_name="agegender")
 
     def __str__(self):
         sum = self.male_adults + self.male_teens + self.male_adults + self.male_old\
