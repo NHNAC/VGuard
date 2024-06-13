@@ -17,7 +17,7 @@ class FireSmokeWeaponDetectionSerializer(serializers.ModelSerializer):
 class AgeGenderSerializer(serializers.ModelSerializer):
     class Meta:
         model = AgeGender
-        fields = ["male_kids", "female_kids", "male_teens", "female_teens", "male_adults", "female_adults", "male_old", "female_old"]
+        fields = ["camera", "male_kids", "female_kids", "male_teens", "female_teens", "male_adults", "female_adults", "male_old", "female_old"]
 
 
 class FaceRecognitionSerializer(serializers.ModelSerializer):
